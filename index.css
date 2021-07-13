@@ -1,0 +1,46 @@
+/* global css */
+*{margin: 0; padding: 0;box-sizing:border-box;}
+body{background-color: #ffffff;}
+input[type=text],input[type=password],input[type=email]{border: 1px solid black; padding:5px}
+
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.container{width: 1440px; margin:0 auto;}
+ .megacont{ width: 2441px;margin:0 auto;} 
+ .fix{overflow: hidden;}
+/* global css */
+
+
+/* header secttion starts here */
+.header{width: 80%;margin: 4em auto ;}
+.header .lovo{ width: 29%; margin:0 auto;}
+.nav{width: 50%;margin:0em auto;}
+.nav ul{margin-top: 3em;}
+.nav ul li{ display: inline-block; list-style: none;}
+.nav ul li a{ text-decoration: none;color: #231f20; margin-right: 1.6em;margin-left: 1.6em;font-size: 1.2em; font-weight: 500;}
+.nav ul li a:hover{color: #0ba39c; cursor: pointer;}
+
+/* header secttion ends here */
+/* Hreo area starts here */
+
+.heroArea{width: 100%;height:554px;background-image: url('images/the-beacon.jpg');background-repeat: no-repeat;background-size: cover;}
+.heroText{ float:right;width :25%; line-height: 1.5em; margin-top: 8em; margin-right: 24em;}
+.heroText h3{background-color: white;font-weight: 500;padding:.5em;width: 90%;}
+.heroText  p{background-color: #252525; color: white; margin:.9em 0;padding-left:.5em;width:80%; }
+.btnOne{ background-color: #0ba39c;  color: whitesmoke;border: none;padding: 1em; cursor: pointer;}
+.btnOne:hover{filter:invert();}
+/* Hreo area ends here */
+/* styles section starts here */
+.styles{ width: 80%;margin:0 auto}
+.ch{float: left;width: 30%; margin-left: 3%;margin-top: 3em; margin-bottom: 10em;}
+.ch h4{ text-align: center;font-size: 1.3em; font-weight: 800;}
+.ch img{ border: 2px solid #252525;}
+/* styles section ends here */
+/* footer section starts here */
+
+.footer{background-color:#252525;width: 100%;padding: 3em;}
+.cpyrt{float: left;width:50%;padding-left: 12em; padding-top:1em;}
+.cpyrt p {color: white;}
+.social{float: right; width:50%;padding-left: 12em;}
+.social a{color: white; margin-right: 1.3em;}
+.social a:hover{cursor: pointer; filter: invert();}
+/* footer section ends here */
